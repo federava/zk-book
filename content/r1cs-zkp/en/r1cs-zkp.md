@@ -34,7 +34,7 @@ r_{1,1} & \cdots & r_{1,m} \\
 \vdots & \ddots & \vdots \\
 r_{n,1} & \cdots & r_{n,m}
 \end{array} \right]
-=
+= \\
 \left[ \begin{array}{ccc}
 o_{1,1} & \cdots & o_{1,m} \\
 \vdots & \ddots & \vdots \\
@@ -48,7 +48,7 @@ a_m
 $$
 
 $$
-= 
+= \\
 \left[ \begin{array}{ccc}
 a_1 l_{1,1} + \cdots + a_m l_{1,m} \\
 \vdots \\
@@ -60,7 +60,7 @@ a_1 r_{1,1} + \cdots + a_m r_{1,m} \\
 \vdots \\
 a_1 r_{n,1} + \cdots + a_m r_{n,m}
 \end{array} \right]
-=
+= \\
 \left[ \begin{array}{ccc}
 a_1 o_{1,1} + \cdots + a_m o_{1,m} \\
 \vdots \\
@@ -69,7 +69,7 @@ a_1 o_{n,1} + \cdots + a_m o_{n,m}
 $$
 
 $$
-= 
+= \\
 \left[ \begin{array}{ccc}
 \sum_{i=1}^m a_i l_{1,i} \\
 \sum_{i=1}^m a_i l_{2,i} \\
@@ -83,7 +83,7 @@ $$
 \vdots \\
 \sum_{i=1}^m a_i r_{n,i}
 \end{array} \right]
-=
+= \\
 \left[ \begin{array}{ccc}
 \sum_{i=1}^m a_i o_{1,i} \\
 \sum_{i=1}^m a_i o_{2,i} \\
@@ -93,7 +93,7 @@ $$
 $$
 
 $$
-= 
+= \\
 \left[ \begin{array}{ccc}
 \sum_{i=1}^m a_i l_{1,i}  \sum_{i=1}^m a_i r_{1,i} = \sum_{i=1}^m a_i o_{1,i} \\
 \sum_{i=1}^m a_i l_{2,i}  \sum_{i=1}^m a_i r_{2,i} = \sum_{i=1}^m a_i o_{2,i} \\
@@ -164,13 +164,13 @@ l_{n,1} & \cdots & l_{n,m}
 \vdots \\
 [a_m G_1]_1
 \end{array} \right]
-=
+= \\
 \left[ \begin{array}{ccc}
 l_{1,1}[a_1 G_1]_1 & + \cdots + & l_{1,m}[a_m G_1]_1 \\
 \vdots & \ddots & \vdots \\
 l_{n,1}[a_1 G_1]_1 & + \cdots + & l_{n,m}[a_m G_1]_1
 \end{array} \right]
-=
+= \\
 \left[ \begin{array}{c}
 \sum_{i=1}^m l_{1,i}[a_i G_1]_1 \\
 \sum_{i=1}^m l_{2,i}[a_i G_1]_1 \\
@@ -192,13 +192,13 @@ r_{n,1} & \cdots & r_{n,m}
 \vdots \\
 [s_m G_2]_2
 \end{array} \right]
-=
+= \\
 \left[ \begin{array}{ccc}
 r_{1,1}[a_1 G_2]_2 & + \cdots + & r_{1,m}[a_m G_2]_2 \\
 \vdots & \ddots & \vdots \\
 r_{n,1}[a_1 G_2]_2 & + \cdots + & r_{n,m}[a_m G_2]_2
 \end{array} \right]
-=
+= \\
 \left[ \begin{array}{c}
 \sum_{i=1}^m r_{1,i}[a_i G_2]_2 \\
 \sum_{i=1}^m r_{2,i}[a_i G_2]_2 \\
@@ -259,7 +259,7 @@ G_2
 $$
 
 $$
-=
+= \\
 \begin{array}{c}
  \sum_{i=1}^m l_{i,1}[a_i G_1]_1\bullet \sum_{i=1}^m r_{i,1}[a_i G_2]_2 \\
  \sum_{i=1}^m l_{i,2}[a_i G_1]_1\bullet \sum_{i=1}^m r_{i,2}[a_i G_2]_2  \\
